@@ -71,9 +71,27 @@ document.write("<br>");
 document.write(notReady);
 console.log(typeof notReady);
 
+//////////////////////////////////////////////////////////////////////////////////
+document.write("<hr>");
 
+document.write("<h2>Arrays</h2>");
+document.write("List of variables");
+document.write("<hr>");
 
+var names = ["Matteo ", "Bill ", "Steve"];
+document.write(names);
+console.log(names);
 
+document.write("<br><br>");
+
+var dateOfBirth = [05 , 11 , 1990];
+document.write(dateOfBirth);
+console.log(dateOfBirth);
+
+var index = ["Matteo", 26, "Turin", true];
+document.write("<br><br>");
+document.write(index[0] + " from " + index[2] + "?" + " Yes, " + index[3]);
+console.log(index);
 
 
 
