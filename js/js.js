@@ -93,7 +93,21 @@ document.write("<br><br>");
 document.write(index[0] + " from " + index[2] + "?" + " Yes, " + index[3]);
 console.log(index);
 
+//////////////////////////////////////////////////////////////////////////////////
+document.write("<hr>");
 
+document.write("<h2>Objects</h2>");
+document.write("JSON (JavaScript Object Notation) - key/value");
+document.write("<hr>");
+
+var person = {
+	"name"     : "Matteo",
+	"age"      : 26,
+	"isFamous" : false
+};
+
+document.write(person.name + " is " + person.age + " and do you think is famous? " + person.isFamous);
+console.log(person);
 
 
 
