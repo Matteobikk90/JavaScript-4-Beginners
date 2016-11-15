@@ -118,23 +118,37 @@ document.write("<hr>");
 
 var colors = ["Red ", "Yellow ", "Black"];
 
-function printLoop() {
+function printForLoop() {
 	for (var i = 0; i < colors.length; i++) {
 		console.log(colors[i]);
 		document.write(colors[i]);
 	}
 }
 
-printLoop();
-console.log(printLoop);
+printForLoop();
+console.log(printForLoop);
 
 
+//////////////////////////////////////////////////////////////////////////////////
+document.write("<hr>");
 
+document.write("WHILE LOOP");
+document.write("<hr>");
 
+var colors = ["Red ", "Yellow ", "Black"];
+var i = 0;
 
+function printWhileLoop() {
+	while (i < colors.length) {
+		console.log(colors[i]);
+		document.write(colors[i]);
 
+		i++;
+	}
+}
 
-
+printWhileLoop();
+console.log(printWhileLoop);
 
 
 
