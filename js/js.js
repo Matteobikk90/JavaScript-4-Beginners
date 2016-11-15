@@ -151,9 +151,32 @@ printWhileLoop();
 console.log(printWhileLoop);
 
 
+//////////////////////////////////////////////////////////////////////////////////
+document.write("<hr>");
+
+document.write("<h2>IF ELSE conditional statements</h2>");
+document.write("<hr>");
+
+var people = ["Mattia", " Oettam", " Matteo"];
+
+function findMatteo(people) {
+
+ if (findMatteo[0] == "Matteo") {
+	console.log("nooo, not him");
+} else if (findMatteo[1] == "Matteo") {
+	console.log("again, wrong person");
+} else {
+	console.log("Finally, here I am");
+}
+
+}
 
 
-
+findMatteo();
+console.log(findMatteo);
+document.write("var people = " + people);
+document.write("<br><br>");
+document.write(findMatteo);
 
 
 
