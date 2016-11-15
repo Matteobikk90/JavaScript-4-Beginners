@@ -180,5 +180,57 @@ document.write(findMatteo);
 
 
 
+//////////////////////////////////////////////////////////////////////////////////
+document.write("<hr>");
+
+document.write("<h2>Switch Statement</h2>");
+document.write("<hr>");
+
+var computers = ["Mac", "Compaq", "HP", "Samsung", "Asus"];
+
+function findMyPc(computers) {
+
+switch (computers[0]) {
+
+case "Compaq": 
+	console.log("No i don't have this pc");
+	break;
+
+case "Asus": 
+	console.log("No i don't have this pc");
+	break;
+
+case "Samsung": 
+	console.log("No i don't have this pc");
+	break;
+
+case "HP": 
+	console.log("No i don't have this pc");
+	break;
+
+default:
+	console.log("Yes, I am using a Mac ;-)");
+
+}
+
+}
+
+findMyPc(computers);
+document.write(findMyPc);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
