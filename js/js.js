@@ -186,7 +186,7 @@ document.write("<hr>");
 document.write("<h2>Switch Statement</h2>");
 document.write("<hr>");
 
-var computers = ["Mac", "Compaq", "HP", "Samsung", "Asus"];
+var computers = ["Mac", " Compaq", " HP", " Samsung", " Asus"];
 
 function findMyPc(computers) {
 
@@ -216,13 +216,39 @@ default:
 }
 
 findMyPc(computers);
+document.write("var computers :" + computers);
+document.write("<br><br>");
 document.write(findMyPc);
 
 
+//////////////////////////////////////////////////////////////////////////////////
+document.write("<hr>");
 
+document.write("<h2>Logical Operators</h2>");
+document.write("AND - OR - NOT");
+document.write("<br>");
+document.write("&&  - || - !");
+document.write("<hr>");
 
+var cities = ["London", " Turin", " Amsterdam", " Gerusalem", " Paris", " Boston"];
 
+function whereIAm(cities) {
+	if (cities[2] !== " Amsterdam") {
+		console.log("Ahhhhhh I am not living here, try again");
+	} else if (cities[3] && cities[4] && cities[5] == " Amsterdam") {
+		console.log("I'm not living here neither Sir, please try again");
+	} else if(cities[0] || cities[2] == " Amsterdam") {
+		console.log("Ouchhh you found me!! Yes I live in Amsterdam. ;-)");
+	} else {
+		console.log("Ahahahah you didn't find me!!");
+	}
+}
 
+whereIAm(cities);
+console.log(whereIAm);
+document.write("var cities :" + cities);
+document.write("<br><br>");
+document.write(findMyPc);
 
 
 
