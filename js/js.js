@@ -109,6 +109,36 @@ var person = {
 document.write(person.name + " is " + person.age + " and do you think is famous? " + person.isFamous);
 console.log(person);
 
+//////////////////////////////////////////////////////////////////////////////////
+document.write("<hr>");
+
+document.write("<h2>Loops</h2>");
+document.write("FOR LOOP");
+document.write("<hr>");
+
+var colors = ["Red ", "Yellow ", "Black"];
+
+function printLoop() {
+	for (var i = 0; i < colors.length; i++) {
+		console.log(colors[i]);
+		document.write(colors[i]);
+	}
+}
+
+printLoop();
+console.log(printLoop);
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
