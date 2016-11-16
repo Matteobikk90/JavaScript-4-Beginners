@@ -306,7 +306,11 @@ function yearsToMonth(year) {
 	return year * 12;
 }
 
-
+document.write(calculateMortgage);
+document.write("<br><br>");
+document.write("Result: " + calculateMortgage(200000, 6.5, 30));
+console.log(calculateMortgage);
+console.log("Result: " + calculateMortgage(200000, 6.5, 30));
 
 
 
