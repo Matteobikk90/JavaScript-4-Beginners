@@ -251,6 +251,66 @@ document.write("<br><br>");
 document.write(findMyPc);
 
 
+//////////////////////////////////////////////////////////////////////////////////
+document.write("<hr>");
+
+document.write("<h2>Unary and Binary Operators</h2>");
+document.write("<hr>");
+document.write("Unary: ++, --, !");
+document.write("<br>");
+document.write("Binary: +, -, *, /, >, <, <=, >=, %");
+
+//////////////////////////////////////////////////////////////////////////////////
+document.write("<hr>");
+
+document.write("<h2>Functions & Methods</h2>");
+document.write("<hr>");
+document.write("Block of code that you can execute via JS<br>Unique name<br>Can receive data (parameter/argument)<br>Can return data<br>Scope");
+document.write("<hr>");
+
+// Global
+var greeting = "Hello";
+
+function sayHiTo(name) {
+	// (Local)
+	var name = "Matteo";
+	console.log(greeting + " " + name);
+}
+
+sayHiTo();
+document.write("var greeting: " + greeting + " " + "(Global variables)");
+document.write("<br><br>");
+document.write(sayHiTo);
+
+
+//////////////////////////////////////////////////////////////////////////////////
+document.write("<hr>");
+
+document.write("<h2>Mortgage Calculator</h2>");
+document.write("<hr>");
+
+function calculateMortgage(p, r, n) {
+
+	r = percentToDecimal(r);
+
+	n = yearsToMonth(n);
+
+	return ((p * r) * Math.pow((1 + r), n)) / (Math.pow((1 + r), n) - 1);
+}
+
+function percentToDecimal(percent) {
+    return (percent/12)/100;
+}
+
+function yearsToMonth(year) {
+	return year * 12;
+}
+
+
+
+
+
+
 
 
 
