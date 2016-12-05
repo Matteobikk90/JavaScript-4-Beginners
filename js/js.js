@@ -295,7 +295,9 @@ function calculateMortgage(p, r, n) {
 
 	n = yearsToMonth(n);
 
-	return ((p * r) * Math.pow((1 + r), n)) / (Math.pow((1 + r), n) - 1);
+	var mortgageResult = ((p * r) * Math.pow((1 + r), n)) / (Math.pow((1 + r), n) - 1);
+
+	return mortgageResult.toFixed(2);
 }
 
 function percentToDecimal(percent) {
